@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #e60808;
+    --secondary-color: black;
+    --background-color: grey;
+}
+
+* {
+    background-color: var(--background-color);
+    text-shadow: whitesmoke;
+    color: var(--primary-color);
+}
