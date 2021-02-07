@@ -38,7 +38,6 @@ ul {
 }
 
 header h1 {
-    
     color: var(--secondary-color);
 }
 
@@ -74,6 +73,10 @@ header h1 {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: darkmagenta;
+}
+
+.contact {
+    display: flex;
 }
 
 @media screen and (max-width: 1200px) {
