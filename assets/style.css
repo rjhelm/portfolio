@@ -15,6 +15,10 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -37,6 +41,12 @@ ul {
     color: darkmagenta;
 }
 
+.header-title:hover {
+    font-style: italic;
+    color: black;
+    background-color: darkmagenta;
+}
+
 header h1 {
     color: var(--secondary-color);
 }
@@ -53,6 +63,7 @@ header h1 {
 .about-image {
     width: 350px;
     align-self: center;
+    border: 6px solid black;
 }
 
 .about {
@@ -77,6 +88,10 @@ header h1 {
 
 .contact {
     display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    color: darkmagenta;
+    
 }
 
 @media screen and (max-width: 1200px) {
