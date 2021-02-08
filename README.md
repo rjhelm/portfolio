@@ -12,5 +12,5 @@
 
 ## Screenshot 
 
-![Website Screenshot](assets\images\website-screenshotPNG.PNG)
+![Website Screenshot](website-screenshotPNG.PNG)
 
