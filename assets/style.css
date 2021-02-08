@@ -81,6 +81,7 @@ a {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: darkmagenta;
+    max-width: 1200px;
 }
 
 .projects {
@@ -99,6 +100,8 @@ a {
      display: flex;
      border-left: 4px solid grey;
      padding: 40px;
+     flex-direction: row;
+     flex-wrap: wrap;
 }
 
 .projects-content a {
@@ -111,37 +114,38 @@ a {
 }
 
 .projects-content a img {
-    width: 650px;
+    width: 100%;
+    height: auto;
 }
 
 .horiseon-container {
-   background-image: ;
+   width: 100%;
 }
 
-/* .horiseon-title {
+.horiseon-title {
     font-weight: bold;
     font-size: 18px;
     position:absolute;
-} */
+} 
 
 .buddy-container {
-    
+    width: 50%;
 }
 
-/* .buddy-title {
+.buddy-title {
       font-weight: bold;
       font-size: 18px;
       position:absolute;
-} */
-
-.progress-container {
-    
 }
 
-/* .progress-title {
+.progress-container {
+    width: 50%;
+}
+
+.progress-title {
       font-weight: bold;
       font-size: 18px;
-      position:absolute; */
+      position:absolute; 
 }
 
 .contact {
@@ -149,7 +153,6 @@ a {
     justify-content: space-evenly;
     font-size: 24px;
     color: darkmagenta;
-    
 }
 
 @media screen and (max-width: 1200px) {
